@@ -1,0 +1,684 @@
+{
+  "contains_credentials": false,
+  "contains_customer_data": false,
+  "entries": [
+    {
+      "path": "api/Dockerfile",
+      "sha256": "bfed95d96e02450622fd8a48a6ec204eb9494361dbb86efbea93529e94b674c2",
+      "size_bytes": 728
+    },
+    {
+      "path": "api/archive_receipt.py",
+      "sha256": "cc51bbb0b805d239e73beab81c47cf145964c9d947fa03fc997abfc32eb05a0a",
+      "size_bytes": 2296
+    },
+    {
+      "path": "api/artifacts.py",
+      "sha256": "4f4ced058efd42978a0f104e81a5f938516f3ccc09be1566a92f195ccbe691a1",
+      "size_bytes": 5476
+    },
+    {
+      "path": "api/automatic_archive.py",
+      "sha256": "c297b66dd8dd6d119a59f1b780dc435b08135efeb19f6239abacc47169dfe7a5",
+      "size_bytes": 11509
+    },
+    {
+      "path": "api/creative_automation.py",
+      "sha256": "6dd25dcede5c85e8efb4c6aefca240a5d66ade1a7c77eedf8133f5b65d16a628",
+      "size_bytes": 29052
+    },
+    {
+      "path": "api/creative_bridge.py",
+      "sha256": "289104766931ce0479f5b6d331cca560e7e34333a5fe1fa775e3b0d8e8bcd1ab",
+      "size_bytes": 3180
+    },
+    {
+      "path": "api/image_budget.py",
+      "sha256": "3f3c7e45036cbcdc185361537524dd4455e71fe09e2f5494124d96bbdddc99c3",
+      "size_bytes": 7325
+    },
+    {
+      "path": "api/main.py",
+      "sha256": "26d2dfc2cd13c5d006cfc4a3e7fc443151c85c5a1a97430565197fe22fdc0f34",
+      "size_bytes": 15420
+    },
+    {
+      "path": "api/media_automation.py",
+      "sha256": "23f9e92bea0a0df05ba361d1a4eb4109df6307a5743621447cf413cc8e03e405",
+      "size_bytes": 16417
+    },
+    {
+      "path": "api/production_policy.py",
+      "sha256": "737d667705d3ca76b5c3df8a817f66e495b6af80bfb0791ff968f3fe04ffc0a6",
+      "size_bytes": 7047
+    },
+    {
+      "path": "api/production_projection.py",
+      "sha256": "dc1adf871c354e3d19978cf400dc09ecc3cd324b13eb00d7e192b200f9b70b80",
+      "size_bytes": 8104
+    },
+    {
+      "path": "api/project_bundle.py",
+      "sha256": "e324a1fa7d207a7d33df963c456881117b31033a5b68591a7c2309ca92b7a8a8",
+      "size_bytes": 12118
+    },
+    {
+      "path": "api/publish_handoff.py",
+      "sha256": "5874e8775885a8189ee49468f6a0dcd7f300b7cabb60c5315d0dadc9c1243fbb",
+      "size_bytes": 17154
+    },
+    {
+      "path": "api/requirements.txt",
+      "sha256": "30d5b93bc82d3c7fa5be542bd1ce51ecb844660684d1060cdbebf90af6738683",
+      "size_bytes": 84
+    },
+    {
+      "path": "api/review_callback.py",
+      "sha256": "6ca5aa4e9fa1e828d11fe298fc99a57dc279e5c66e4ef858ff65f3a35cae373e",
+      "size_bytes": 11401
+    },
+    {
+      "path": "api/review_callback_router.py",
+      "sha256": "905027e6e8221ecc0aef04e35de7fce71d349b8ac30fdfcc18cec6fdea258b8a",
+      "size_bytes": 2308
+    },
+    {
+      "path": "api/review_signature.py",
+      "sha256": "223f30a04d2c28f2fcd0ef6f4b6a6a437e18c46e64b60173f20bdcabfc32bd28",
+      "size_bytes": 4518
+    },
+    {
+      "path": "api/sheet_intake.py",
+      "sha256": "ec4315a595428dfa7abe0d1c4349dd9513c79a19edefe5d4f4423046839dab14",
+      "size_bytes": 9883
+    },
+    {
+      "path": "content/CONTENT_CREATION_SKILL.md",
+      "sha256": "da8518c07f0905bb6c371ac3edf9e0538f3115c9bab788efae740be690617fea",
+      "size_bytes": 4572
+    },
+    {
+      "path": "content/NARRATIVE_DELIVERY_POLICY.md",
+      "sha256": "bdf7727b3dada9e89b880a37f39de7dd50318d9a98671c095ee2deefdddf87fa",
+      "size_bytes": 8291
+    },
+    {
+      "path": "content/PLANNING_RECOVERY_POLICY.md",
+      "sha256": "bd9df7236f40f72c329b2f16f7cb70275148258b1fb25d9022ff1fbad1eb6ca6",
+      "size_bytes": 3303
+    },
+    {
+      "path": "content/PUBLISHING_PREFERENCES.md",
+      "sha256": "8ffdafd40c9d0ac7d20b145641449cbd8c36c0abf5786caa11a6544f1b36ebf4",
+      "size_bytes": 1106
+    },
+    {
+      "path": "content/QA_POLICY.md",
+      "sha256": "600a74ab796dea699a9f13f9a6cb2bd3bf68ffd372425db6879cf59b1bee6282",
+      "size_bytes": 5072
+    },
+    {
+      "path": "content/RETENTION_POLICY.md",
+      "sha256": "01c745794a38a29061e3bb67a02eefa74ebc2ac925bf48dae4e1c478684410f2",
+      "size_bytes": 1795
+    },
+    {
+      "path": "creative/__init__.py",
+      "sha256": "3a2606853cf6cbd83ca72d388e85bf7063a3a4828b0730f76dbe9e380fb6d5ca",
+      "size_bytes": 194
+    },
+    {
+      "path": "creative/cadence.py",
+      "sha256": "4f44918edf2a36adbb561739a3735eeb7ba25d596f986d7ad812074b2f9fc08f",
+      "size_bytes": 1670
+    },
+    {
+      "path": "creative/contract.py",
+      "sha256": "05598e6adc51eb58199b71dcd7c2fe12c048665b1cbb5752922a9af3f4c3e776",
+      "size_bytes": 15415
+    },
+    {
+      "path": "creative/cycle_observer.py",
+      "sha256": "55dba8b800e413f410562d086041ca7a5b3fd4a71387d9d7d748971b8dfa7963",
+      "size_bytes": 2662
+    },
+    {
+      "path": "creative/deliverables.py",
+      "sha256": "b1565abcefd18cedbc1a61e71cb581e240cb2c02a5fa2d88a15c8ff4c46e14ca",
+      "size_bytes": 23252
+    },
+    {
+      "path": "creative/fixed_template.py",
+      "sha256": "315edd9526b97bf53f97c931b669ee7cfa6c45657931de9094066b25f2e0a82d",
+      "size_bytes": 4528
+    },
+    {
+      "path": "creative/housekeeping.py",
+      "sha256": "a8d0d693bf2be874cde55018ce6f3f814783d284e6a18102e776ecea8f7a086a",
+      "size_bytes": 5883
+    },
+    {
+      "path": "creative/lettering.py",
+      "sha256": "a1b24b9f64dddcdb33f9a9f24ac8605d5e58885a6e2b7f61c3c94392f8c41012",
+      "size_bytes": 5393
+    },
+    {
+      "path": "creative/media_runtime.py",
+      "sha256": "2501d4efedb9cc1c6a7ddf599761dde0572df1013e5c9c3e56d797dff70c3a8b",
+      "size_bytes": 48647
+    },
+    {
+      "path": "creative/narration_style.py",
+      "sha256": "3660f7a388cb02757635aa45dae90088dd7e5df3451126a2b4889f125a80977e",
+      "size_bytes": 1056
+    },
+    {
+      "path": "creative/narrative.py",
+      "sha256": "e5697f64ca2004a7ada6ea36dac92828508a6ef145beffcd0b3137c677a1af0e",
+      "size_bytes": 13876
+    },
+    {
+      "path": "creative/narrative_revisions.py",
+      "sha256": "a8a90f825e13ac84ef424673cd1b3ee56e73e6461d413cff426cac87dd72320f",
+      "size_bytes": 5238
+    },
+    {
+      "path": "creative/narrative_visual.py",
+      "sha256": "6f79e4ebf4cf1e9eb1a9a468f5b112b0536fec8ba092acb19eb0ef38c8bb7ebc",
+      "size_bytes": 8673
+    },
+    {
+      "path": "creative/normalize.py",
+      "sha256": "44da735164d15ad09d016a1f7538a3291a6be6691a6bb4e3ce632554a7ca16c9",
+      "size_bytes": 2151
+    },
+    {
+      "path": "creative/pi_runtime.py",
+      "sha256": "4769427c0de1fe576c97e0a742353f84b75b7a981ba84b6f55a93d9551500145",
+      "size_bytes": 15937
+    },
+    {
+      "path": "creative/pitches.py",
+      "sha256": "376ce87531b994aa1e79e52257d4b1c4727de9080f21bf2976ec6d7d63a1d8ee",
+      "size_bytes": 3316
+    },
+    {
+      "path": "creative/plan_revision.py",
+      "sha256": "249278439a650a60979a069b96e172f98afe0066b54ef73ec8dfd47f964711f8",
+      "size_bytes": 723
+    },
+    {
+      "path": "creative/planning_contract.py",
+      "sha256": "4284acc9093fa584456b240d03c1faf078ff78da18359999378e89df259d6326",
+      "size_bytes": 10161
+    },
+    {
+      "path": "creative/planning_runtime.py",
+      "sha256": "46b85c37bbc3f20e49cfe55703cce4c20be1100a265933fdd9a73d4b4309962a",
+      "size_bytes": 21184
+    },
+    {
+      "path": "creative/policy_worker.py",
+      "sha256": "4395cb9ebba419f2ab5fae3c85bf1728308cce544fc1565b9752312ac6069aa8",
+      "size_bytes": 4730
+    },
+    {
+      "path": "creative/production.py",
+      "sha256": "76e8e092d68fc67f63fd98bcfa9ecf5570771274fb7a86b5d96c1bb8b869e867",
+      "size_bytes": 11551
+    },
+    {
+      "path": "creative/project_archive.py",
+      "sha256": "e03b6ba2bd2935b8d8fcbfde6f7b18f901af61b6ce82a996517333a7d857b25f",
+      "size_bytes": 6275
+    },
+    {
+      "path": "creative/publication_rights.py",
+      "sha256": "8fc03771d04c52017586592ed49c5f637ba4316f1ff1105d03841dda36728bda",
+      "size_bytes": 5207
+    },
+    {
+      "path": "creative/retention.py",
+      "sha256": "ace27e7fb45de58d57ae6461d3e52e45a45cd69bab5c5b77f4d312d777401785",
+      "size_bytes": 4607
+    },
+    {
+      "path": "creative/review_board.py",
+      "sha256": "d1adc628e79c4ea8b8f3418b48a7e7fcafde0e473e95843f53a89a8686bfb34e",
+      "size_bytes": 1773
+    },
+    {
+      "path": "creative/skills.py",
+      "sha256": "bb3d9e185bbe1af781e01a245a0832b73a13365fd7e8cb0b7423fd4b6055e42f",
+      "size_bytes": 8230
+    },
+    {
+      "path": "creative/source_material.py",
+      "sha256": "b64111f156b3f59d6c396b72fc9db750ab09f1288ac0a2ed84a8e4cede886827",
+      "size_bytes": 859
+    },
+    {
+      "path": "creative/storyboard_project.py",
+      "sha256": "e660db58e6b5fdf2c3056a910343784316fbfd78021e3e6930afa46e8e5a42f1",
+      "size_bytes": 42787
+    },
+    {
+      "path": "creative/topic_selection.py",
+      "sha256": "351a98be588adf96fc814d77f0b931a03a87a8caa27efbe45b5a0ced9f3dbb99",
+      "size_bytes": 3932
+    },
+    {
+      "path": "creative/visual_repair.py",
+      "sha256": "84aee553ab1f0b0c06d905517ad13c6fde98a587e468cc198d9358508f9ca128",
+      "size_bytes": 7315
+    },
+    {
+      "path": "creative/worker.py",
+      "sha256": "0b4889165c2c950b86e62cb60862cb2592261879b0b7c88dda156826d0d21a40",
+      "size_bytes": 29609
+    },
+    {
+      "path": "db/schema.sql",
+      "sha256": "fb7d43a134b04d659939315cf2c64067fc8348d683eac433e60fe81b53dc492c",
+      "size_bytes": 6717
+    },
+    {
+      "path": "distribution/README.md",
+      "sha256": "fc68a48a5df51d6943ea6de4750debd75a32323ec8f154327107f0dc51ad60c2",
+      "size_bytes": 871
+    },
+    {
+      "path": "distribution/backup.py",
+      "sha256": "95e2e43ec3e1594391c5713647a6b9727520639ce639203ee00ec27ed17acee6",
+      "size_bytes": 9815
+    },
+    {
+      "path": "distribution/compose.yml",
+      "sha256": "dd9489cdc6ed49faa2dabd36dd952e301e01621b63b1e1d439bd406e9eba3a61",
+      "size_bytes": 3838
+    },
+    {
+      "path": "distribution/creative.Dockerfile",
+      "sha256": "b85bae6afde85168fd04d280cb54ca2a5ac650f404ccded35e8374d1da0100f0",
+      "size_bytes": 1467
+    },
+    {
+      "path": "distribution/doctor.py",
+      "sha256": "a71d1efae3f0ec803a31554fe9bb43a3069b6cc8e1c883be86545110b485107e",
+      "size_bytes": 9396
+    },
+    {
+      "path": "distribution/install.sh",
+      "sha256": "c67d31ccbe1de8fa61b6ab0f76c596c7f8c27004479681a3dcffbf3689f961e9",
+      "size_bytes": 351
+    },
+    {
+      "path": "distribution/installer.py",
+      "sha256": "33acd36f0b1ef7b22c92d11ce48f6986018c2b363d393afee4fd7116d1789e1f",
+      "size_bytes": 17275
+    },
+    {
+      "path": "distribution/instance.py",
+      "sha256": "46965cb570bf597c510ac61dc898207d8c5b5a2bd92af4cd9b4bb7ddf1701854",
+      "size_bytes": 4179
+    },
+    {
+      "path": "distribution/lifecycle.py",
+      "sha256": "4b43a93ea834a275d8767fb95b9362d18f7cdcb51338ada2ab16cd0057d393a3",
+      "size_bytes": 7802
+    },
+    {
+      "path": "distribution/manage.py",
+      "sha256": "2b8180048ba24a11e237a1637fd89e2bea618b9b7ba7e5a1513a411f02952aa9",
+      "size_bytes": 8006
+    },
+    {
+      "path": "distribution/onboard.py",
+      "sha256": "a007ec47ea16b9e15b27a6e65d03a5807edf6877542fe7a11a6016c2d0e55207",
+      "size_bytes": 7150
+    },
+    {
+      "path": "distribution/preflight_workflow.py",
+      "sha256": "d74bf7543d2454dc77e91f16242bce51285d07fb41f7fe760ee74ae090f4a20f",
+      "size_bytes": 5438
+    },
+    {
+      "path": "distribution/restore.py",
+      "sha256": "18ed47ce8ae21074563cbc57fbec866e299b87c6f62dcd2e6865fb98db0ca749",
+      "size_bytes": 11072
+    },
+    {
+      "path": "distribution/runtime.example.json",
+      "sha256": "1ead7b0ce24998b4442881393e2cebe3ca7bc887f36a5cfa448f05339d3146a2",
+      "size_bytes": 539
+    },
+    {
+      "path": "distribution/runtime.py",
+      "sha256": "abdb42aaf27b43973c3952c52afcb28791039f6ed8dfc32959736f91eb9f51fe",
+      "size_bytes": 7043
+    },
+    {
+      "path": "distribution/settings.example.json",
+      "sha256": "7debb85f1f537c60033c8415a8f2023afe8ade87ae27035eecef96f36e8d2985",
+      "size_bytes": 394
+    },
+    {
+      "path": "distribution/test_portable_runtime.py",
+      "sha256": "c9cd240bd06c4a6fd05f1ccb3c3ac48be8b748d53859ed87a77cbc82e2cd88c9",
+      "size_bytes": 40769
+    },
+    {
+      "path": "distribution/wizard.py",
+      "sha256": "d090a37ba74b53cd937ad13123f11d456ec17696a040b3709ae4cbf2b4e75416",
+      "size_bytes": 12565
+    },
+    {
+      "path": "distribution/wizard_prompt.py",
+      "sha256": "49366db9b3b30f65da3edaf11b06d14413fcd926b108821da7a086664677e93c",
+      "size_bytes": 4083
+    },
+    {
+      "path": "distribution/workflows.py",
+      "sha256": "ba58c1f48d43b96d61409b0d25b6c70484a81f721703d5c6663f9e2b6a4ea7fc",
+      "size_bytes": 4474
+    },
+    {
+      "path": "n8n/build_automatic_archive_workflow.py",
+      "sha256": "d697d7dfa8db9aba10f0c1f88a8690e2895ec218e0f2f3f14628c723bde72a67",
+      "size_bytes": 12309
+    },
+    {
+      "path": "n8n/build_creative_automation_workflow.py",
+      "sha256": "abffacc18e6d3810d2befd26cab4426720a5349bfddea605bf1eb373cda96afa",
+      "size_bytes": 3128
+    },
+    {
+      "path": "n8n/build_google_storage_preflight.py",
+      "sha256": "18d0678f9c85ce97faf2e8e7dbbc6b6b04dae749b855cc1d4faff836b9dda883",
+      "size_bytes": 37
+    },
+    {
+      "path": "n8n/build_manual_plan_approval.py",
+      "sha256": "15d1bd4ac25b727b0be60ce95bfec78df4b514735c364b7134fc474388256453",
+      "size_bytes": 6811
+    },
+    {
+      "path": "n8n/build_policy_approval_workflow.py",
+      "sha256": "36a96c677a76ca654e765dc0b8c6dce5696ca13a102d230350eb9c72394e2a86",
+      "size_bytes": 3869
+    },
+    {
+      "path": "n8n/build_production_projection_workflow.py",
+      "sha256": "80002db84a04aad1a3ff73f3e8f5e47efe92f3e70fa9a780140839a4c8b8ad32",
+      "size_bytes": 7381
+    },
+    {
+      "path": "n8n/build_project_archive_workflow.py",
+      "sha256": "f15121a2cdf6d4df8f8f79f866551fd57facd594349f34f508c6f2ff912fd80e",
+      "size_bytes": 952
+    },
+    {
+      "path": "n8n/build_publish_queue_handoff_workflow.py",
+      "sha256": "5fbd83c5da8d5ff5417e4a2ad8e7666c629128560898518b98c47ca07847216d",
+      "size_bytes": 8269
+    },
+    {
+      "path": "n8n/build_sheet_intake_workflow.py",
+      "sha256": "4cf03edf6f4171a81f1b2088758662c939efa0f7a88a47f57cc0fd5d77cbe8b9",
+      "size_bytes": 4285
+    },
+    {
+      "path": "n8n/gateway_credential_id.txt",
+      "sha256": "7a9504a57f359c315b09487a660232bcdf73b384b58e396757ddbefc82616373",
+      "size_bytes": 15
+    },
+    {
+      "path": "skills/BUNDLE_MANIFEST.json",
+      "sha256": "cdc786ef7c37c3a6d9684d0ff1b793b4f2304686d4f04a06e42e4c1bce8dedaf",
+      "size_bytes": 12590
+    },
+    {
+      "path": "skills/contents-production-skills/creative-production/SKILL.md",
+      "sha256": "f81f96ae76a76f45b3ef9181adc7c492e9223339a0d51e017f20b18f67a4c656",
+      "size_bytes": 20319
+    },
+    {
+      "path": "skills/contents-production-skills/creative-production/references/creative-qa.md",
+      "sha256": "ca464fe7581cf75c406d323e6fe9e1ed47d75373ac633d959bce46040bfffb4a",
+      "size_bytes": 6927
+    },
+    {
+      "path": "skills/contents-production-skills/creative-production/references/production-routing.md",
+      "sha256": "263a8a43ba84cda3aba2cf444a3e212c893af639d5760f8a5f9ebf50d5fbfb37",
+      "size_bytes": 10692
+    },
+    {
+      "path": "skills/contents-production-skills/creative-production/references/workspace-integration.md",
+      "sha256": "b9ff877567f7a503eaf104f1cd3d4ba0a4199b9e421b4a3458cd4c885d51a14f",
+      "size_bytes": 3576
+    },
+    {
+      "path": "skills/contents-production-skills/designing-character-personas/SKILL.md",
+      "sha256": "acf8b90ea0221857ea6f7378120bfd09ccfdbf6c8ac2e687157224c25392564b",
+      "size_bytes": 8655
+    },
+    {
+      "path": "skills/contents-production-skills/designing-video-character-sheets/SKILL.md",
+      "sha256": "bd660a224129fce3a975263be152b151ccf159dbbfb56e5e10c6849c12497bf9",
+      "size_bytes": 13581
+    },
+    {
+      "path": "skills/contents-production-skills/developing-video-synopses/SKILL.md",
+      "sha256": "4922fa2bac7a666df76137b7d7f6cc9969e702865880c18a851d85b233aef6e0",
+      "size_bytes": 5660
+    },
+    {
+      "path": "skills/contents-production-skills/developing-video-synopses/references/synopsis-craft.md",
+      "sha256": "5f9df5aa7906cecd490d1e845fc111e407805d36323b0894473d6b1f88bf7d63",
+      "size_bytes": 11559
+    },
+    {
+      "path": "skills/contents-production-skills/orchestrating-video-preproduction/SKILL.md",
+      "sha256": "5184849f7b95b62a824230093563efbb55fb9d14ac755a02b9703d7ceecfb184",
+      "size_bytes": 8921
+    },
+    {
+      "path": "skills/contents-production-skills/orchestrating-video-preproduction/references/stage-execution.md",
+      "sha256": "a9a8b61066c189413808400a0b795f7a2506f63ed1092912168c30f820779899",
+      "size_bytes": 13243
+    },
+    {
+      "path": "skills/contents-production-skills/orchestrating-video-preproduction/references/video-direction.md",
+      "sha256": "bc273881295f2a94330db580f2dd6873d00f2a2900d2e093640482d4da4665a5",
+      "size_bytes": 10117
+    },
+    {
+      "path": "skills/contents-production-skills/recording-production-history/SKILL.md",
+      "sha256": "bd49133692ed03d0e8567c72779a46000411616846770b6dde8cf7ea0e201ac4",
+      "size_bytes": 9456
+    },
+    {
+      "path": "skills/contents-production-skills/recording-production-history/scripts/production_history.py",
+      "sha256": "dd12e21db0bf5b0853d215d027a8a6f7a66323b28f016760a76b8afcc13efa8a",
+      "size_bytes": 38373
+    },
+    {
+      "path": "skills/contents-production-skills/storyboarding-video/SKILL.md",
+      "sha256": "abd23d8dfaedd51560eac3506554a715044f2e0f2ac061ef094fa71df47e4724",
+      "size_bytes": 10777
+    },
+    {
+      "path": "skills/contents-production-skills/storytelling-with-still-images/SKILL.md",
+      "sha256": "b1fa9f98c08ccf184603a555d34e5ceeb8274e66e9ffb0ea9e62b2e62d3e1ee1",
+      "size_bytes": 7118
+    },
+    {
+      "path": "skills/contents-production-skills/topic-demand-selection/SKILL.md",
+      "sha256": "73a54f68538201cbd4cbfaa2fe62ce00049e615ee549ed67289b6cc32490b87e",
+      "size_bytes": 9050
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/SKILL.md",
+      "sha256": "3b81d34146fc78e73ff102b4f8273d11551ab9e6fee8167f83b37756eb1ac708",
+      "size_bytes": 23979
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/03-screenplay.md",
+      "sha256": "6dd8e0c23aaf9443c3cc30f94fcdff4db2652f4595de3364cdaebd32c768f04b",
+      "size_bytes": 5536
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/04-performance.md",
+      "sha256": "41c0a8a94ccc4ef0f953ee65cae11cecbe654fd0fbe633a0c5b008a7a858ba4c",
+      "size_bytes": 5208
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/05-visual.md",
+      "sha256": "fd1aedfea5cbd9bdf017ec573aca831b22f248d02803c1a058902e3544cd93ae",
+      "size_bytes": 5265
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/09-edit.md",
+      "sha256": "27cff13fb6b2674a9b645118f1baaf1e25955c2f4b58a23acd6e4f543a0381a8",
+      "size_bytes": 23990
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/12-qa.md",
+      "sha256": "8f614468f24687357c36428b06fb5a7498808bd015d9b1b3a607b40ea1ef859f",
+      "size_bytes": 8477
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/16-concept-emotion-retention.md",
+      "sha256": "1fb8fea27f6fc9258da077a82df8982e8487e20b84ec34d83021320ef39797f7",
+      "size_bytes": 17380
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/26-state-causality-continuity.md",
+      "sha256": "82e9405074801cac1242c351f45d24c273ea792e4b8120b0e6255aa29b7a4dea",
+      "size_bytes": 8803
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/29-reference-driven-production.md",
+      "sha256": "269b60df4f4244d0da0792e9fd10bb0e9145621395d3b81451a6e16a99091d44",
+      "size_bytes": 27919
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/contract.md",
+      "sha256": "d7be20620a61a12e11e534f1bec1d7f88ed0b44fc8c264cfc6781ae2657c89ad",
+      "size_bytes": 31256
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/preproduction-review.md",
+      "sha256": "48989e5c2ecf1004578691028397629a8326aa463d192f10a5fc9898370bc268",
+      "size_bytes": 15584
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/references/storyboard-contract.md",
+      "sha256": "29bfb789c4dab5809bf2499805a21b369ee2833847355aca782876c633111b6f",
+      "size_bytes": 38695
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/scripts/asset_gate.py",
+      "sha256": "2e45716fdfca6a717678933545ca2e91feed1bf7e861d532f80506de43c77572",
+      "size_bytes": 34103
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/scripts/render_storyboard_sheet.py",
+      "sha256": "e0f2e777dd76155e8030bb4d6b06db2208febd15a9466234dd31171d7d382c41",
+      "size_bytes": 36272
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/scripts/split_storyboard.py",
+      "sha256": "fcd84dcbec8ceee49fa227c0f06f302fbc7c7fbcafdaad98e9d35ec87021f297",
+      "size_bytes": 31146
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/scripts/validate_project.py",
+      "sha256": "046ebf6676c0fd07d209eb009bbcf4bd9cf4703487a8e020dcd2d0249aedbad5",
+      "size_bytes": 22764
+    },
+    {
+      "path": "skills/contents-production-skills/video-production-assets/scripts/validate_storyboard.py",
+      "sha256": "7becf4a8f9ec0aa6b1c5574c9b4999331bf04da00fa4dac68e24ac10a0a9e0ac",
+      "size_bytes": 27134
+    },
+    {
+      "path": "worker/Dockerfile",
+      "sha256": "0f295ad93c96ebfecbd7a8618e61c8b5b2de0b9562cbd12f8366bcb61148da57",
+      "size_bytes": 548
+    },
+    {
+      "path": "worker/adapters/caption_style.py",
+      "sha256": "a5f3a1040279a19c42b51b0452cbc39fb562b7d8ac1e1e346755b5937a5064de",
+      "size_bytes": 704
+    },
+    {
+      "path": "worker/adapters/caption_style_v10.json",
+      "sha256": "3cd9ec7059093a7d1f728aab441fa6b92481836ecac91d08a82e93bfcc9b86b5",
+      "size_bytes": 1013
+    },
+    {
+      "path": "worker/adapters/listening_audio.py",
+      "sha256": "351ecc12ea07b85f43a347c7a4dbfeb4515b1a2d8d60469947090f574b99136f",
+      "size_bytes": 5019
+    },
+    {
+      "path": "worker/adapters/listening_timeline.py",
+      "sha256": "caa35720a08d90eed4fce25a44b0eba01d25d64522bd2b7ca1a8241a395f5c0d",
+      "size_bytes": 7218
+    },
+    {
+      "path": "worker/adapters/project_bundle_contract.py",
+      "sha256": "43d3ba0e2d0dc741b4f1310edae3f3a105e798b337cb9f73b5daa67f89c3e457",
+      "size_bytes": 7918
+    },
+    {
+      "path": "worker/adapters/render_ffmpeg.py",
+      "sha256": "ce7d65741e7cb4294b80cdee5dcf0b0dc90a65883133702332ed6cae10bd9036",
+      "size_bytes": 18404
+    },
+    {
+      "path": "worker/adapters/render_manifest.py",
+      "sha256": "8e6614a9052ac9f785185cf178a9738a23d61db0b5d49af6acf95cda88a4570a",
+      "size_bytes": 2317
+    },
+    {
+      "path": "worker/adapters/typecast_timestamp_tts.py",
+      "sha256": "224b2a1c3eb43d99f41528073cf2cc5d59fde600705da5be95d2a3975a760fc4",
+      "size_bytes": 10842
+    },
+    {
+      "path": "worker/main.py",
+      "sha256": "ba3a790f5f9bd108528fac6f7dbba55d5fbfb116d518eba768ad6ea824a9dcde",
+      "size_bytes": 12465
+    },
+    {
+      "path": "worker/render_frames.py",
+      "sha256": "f625b08b3715323241af48988c9c0b04c3010879480ceb259b64781ad3f187b1",
+      "size_bytes": 1689
+    },
+    {
+      "path": "worker/requirements.txt",
+      "sha256": "d2344076593c14357a86869580f2ff4930051813c887c6c3d5248ff81b3ffe33",
+      "size_bytes": 23
+    },
+    {
+      "path": "worker/stage_assets.py",
+      "sha256": "f6f8fc77b73d3a055ce176c452047528bbd208a6ad0f959e9ea59183047fdcfb",
+      "size_bytes": 1898
+    },
+    {
+      "path": "worker/stage_project_bundle.py",
+      "sha256": "e68ea329fd537c811e9a3b3ca985eba1e2e8adbfd95a2c713916ec63f0513da7",
+      "size_bytes": 13779
+    }
+  ],
+  "external_dependencies": [
+    "user-owned Pi OAuth/runtime",
+    "licensed creative skills and image CLI",
+    "Google OAuth",
+    "Typecast API key and commercial entitlement"
+  ],
+  "format": "shortform-source-v1",
+  "release_status": "developer-modified-requires-tests-and-review"
+}

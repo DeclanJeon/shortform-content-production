@@ -1,0 +1,11 @@
+{
+  "pi_runtime_path": "/absolute/path/to/node_modules/@earendil-works/pi-coding-agent",
+  "skill_root": "/absolute/path/to/host-skills",
+  "image_executor_script": "/absolute/path/to/host-skills/codex-imagen/scripts/codex-imagen.mjs",
+  "pi_auth_dir": "/absolute/path/outside/git/to/your/private/pi-agent",
+  "provider": "YOUR_PROVIDER_ID",
+  "writer_model": "YOUR_EXACT_WRITER_MODEL_ID",
+  "reviewer_model": "YOUR_EXACT_REVIEWER_MODEL_ID",
+  "vision_model": "YOUR_EXACT_IMAGE_CAPABLE_REVIEWER_MODEL_ID",
+  "channel_name": "내 채널"
+}

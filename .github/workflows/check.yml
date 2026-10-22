@@ -1,0 +1,44 @@
+name: Source, installer and storyboard checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-contracts:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified upstream ref
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Refuse private files and verify source manifest
+        run: python3 -B scripts/check_public.py
+      - name: Install API requirements for publisher handoff tests
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir -r src/api/requirements.txt
+      - name: Installer, safety and publisher handoff contracts
+        run: python3 -B -m unittest discover -s tests -v
+      - name: Install deterministic storyboard fixture dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+          python3 -m pip install --disable-pip-version-check --no-cache-dir Pillow==12.1.1
+      - name: Skill runtime, full storyboard and archive contracts
+        run: python3 -B -m unittest discover -s src/distribution -p test_portable_runtime.py -v
+      - name: Validate default Compose without starting services
+        run: |
+          python3 -B src/distribution/installer.py prepare --config src/distribution/settings.example.json --target "$RUNNER_TEMP/shortform-ci"
+          docker compose --env-file "$RUNNER_TEMP/shortform-ci/.env" -f "$RUNNER_TEMP/shortform-ci/compose.yml" config --quiet
+  container-builds:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Build code only, without personal runtime or credentials
+        run: |
+          docker build -f src/api/Dockerfile -t shortform-gateway:ci src
+          docker build -t shortform-worker:ci src/worker
+          docker build -f src/distribution/creative.Dockerfile -t shortform-coordinator:ci src

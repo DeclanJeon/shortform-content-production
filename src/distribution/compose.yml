@@ -1,0 +1,99 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: shortform
+      POSTGRES_USER: shortform
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?required}
+      PGPASSWORD: ${POSTGRES_PASSWORD:?required}
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U shortform -d shortform"]
+      interval: 5s
+      retries: 30
+    restart: unless-stopped
+  gateway:
+    build:
+      context: ./source
+      dockerfile: api/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://shortform:${POSTGRES_PASSWORD}@postgres:5432/shortform
+      API_TOKEN: ${API_TOKEN:?required}
+      WORKER_TOKEN: ${WORKER_TOKEN:?required}
+      REVIEW_CALLBACK_SECRET_FILE: /run/secrets/review_callback_secret
+      REVIEW_CALLBACK_REVIEWER_ID: n8n-production-reviewer
+      SOURCE_SHEET_ID: ${SOURCE_SHEET_ID:-}
+      PUBLISH_SHEET_ID: ${PUBLISH_SHEET_ID:-}
+      PUBLISH_QUEUE_TAB: ${PUBLISH_QUEUE_TAB:-발행 대기}
+      PUBLISH_PRIVACY: ${PUBLISH_PRIVACY:-공개}
+      PUBLISH_CATEGORY_ID: ${PUBLISH_CATEGORY_ID:-22}
+      AUTOMATIC_ARCHIVE_FOLDER_ID: ${AUTOMATIC_ARCHIVE_FOLDER_ID:-}
+      AUTOMATIC_CREATIVE_ENABLED: ${AUTOMATIC_CREATIVE_ENABLED:-false}
+      AUTOMATIC_MEDIA_ENABLED: ${AUTOMATIC_MEDIA_ENABLED:-false}
+      AUTOMATIC_POLICY_APPROVAL_ENABLED: ${AUTOMATIC_POLICY_APPROVAL_ENABLED:-false}
+      CREATIVE_SKILL_REVISION: ${CREATIVE_SKILL_REVISION:-}
+      PRODUCTION_START_AT: ${PRODUCTION_START_AT:-}
+      AUTOMATIC_CREATIVE_DAILY_LIMIT: ${AUTOMATIC_CREATIVE_DAILY_LIMIT:-12}
+      PRODUCTION_INTERVAL_MINUTES: ${PRODUCTION_INTERVAL_MINUTES:-120}
+      ALLOW_SHEET_INSPIRATION: ${ALLOW_SHEET_INSPIRATION:-false}
+      IMAGE_RESERVATION_USD: "0.25"
+      IMAGE_DAILY_RESERVATION_USD: ${IMAGE_DAILY_RESERVATION_USD:-120.00}
+      IMAGE_EPISODE_RESERVATION_USD: "10.00"
+      IMAGE_DAILY_CALL_LIMIT: ${IMAGE_DAILY_CALL_LIMIT:-480}
+      ARTIFACT_ROOT: /data/artifacts
+    volumes:
+      - artifacts:/data/artifacts:ro
+      - ./secrets/review_callback_secret:/run/secrets/review_callback_secret:ro
+    networks:
+      default:
+        aliases: [shortform-gateway]
+    depends_on:
+      postgres: {condition: service_healthy}
+    restart: unless-stopped
+  worker:
+    build: ./source/worker
+    environment:
+      API_BASE_URL: http://gateway:8080/v1
+      WORKER_TOKEN: ${WORKER_TOKEN:?required}
+      DATABASE_URL: postgresql://shortform:${POSTGRES_PASSWORD}@postgres:5432/shortform
+      ARTIFACT_ROOT: /data/artifacts
+      TYPECAST_API_KEY_FILE: /run/secrets/typecast_api_key
+      TYPECAST_VOICE_ID: ${TYPECAST_VOICE_ID:-}
+      TYPECAST_DAILY_CHARACTER_LIMIT: "20000"
+      TYPECAST_MONTHLY_CHARACTER_LIMIT: "600000"
+      MAX_TTS_REQUESTS: ${MAX_TTS_REQUESTS:-24}
+      TYPECAST_REQUEST_COST_BOUND_USD: "0.25"
+      DAILY_COST_LIMIT_USD: "6.00"
+      EPISODE_COST_LIMIT_USD: "6.00"
+    volumes:
+      - artifacts:/data/artifacts
+      - ./secrets/typecast_api_key:/run/secrets/typecast_api_key:ro
+    depends_on:
+      postgres: {condition: service_healthy}
+      gateway: {condition: service_started}
+    restart: unless-stopped
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:2.43.5
+    ports: ["127.0.0.1:${N8N_PORT:-5678}:5678"]
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?required}
+      N8N_HOST: localhost
+      N8N_PROTOCOL: http
+      N8N_PORT: "5678"
+      GENERIC_TIMEZONE: Asia/Seoul
+      TZ: Asia/Seoul
+      N8N_SECURE_COOKIE: "false"
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+      EXECUTIONS_DATA_SAVE_ON_SUCCESS: none
+      EXECUTIONS_DATA_SAVE_ON_ERROR: none
+    volumes:
+      - automation:/home/node/.n8n
+      - ./workflows:/workflows:ro
+    restart: unless-stopped
+volumes:
+  database:
+  artifacts:
+  automation:

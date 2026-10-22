@@ -1,0 +1,50 @@
+{
+  "schema_version": "caption-style-v1",
+  "preset_id": "shorts-caption-80px-v10",
+  "canvas": {
+    "width_px": 1080,
+    "height_px": 1920
+  },
+  "font": {
+    "family": "Noto Sans CJK KR",
+    "weight": "bold",
+    "size_px": 80,
+    "fill_color": "#FFFFFF"
+  },
+  "backplate": {
+    "enabled": true,
+    "fill_color": "#000000",
+    "opacity": 0.56,
+    "padding_px": 18
+  },
+  "outline": {
+    "enabled": false,
+    "color": "#000000",
+    "width_px": 0
+  },
+  "shadow": {
+    "enabled": false,
+    "color": "#000000",
+    "offset_px": 0
+  },
+  "placement": {
+    "alignment": "bottom_center",
+    "anchor_x_px": 540,
+    "anchor_y_px": 1775
+  },
+  "safe_area": {
+    "left_px": 50,
+    "right_px": 50,
+    "max_line_width_px": 920,
+    "max_lines": 2
+  },
+  "line_wrap": {
+    "mode": "balanced_word_wrap",
+    "preserve_cue_timing": true
+  },
+  "evidence": {
+    "basis": "private v10 readability test informed by Flucto visual analysis",
+    "reference_count": 3,
+    "font_file_identified": false
+  }
+}

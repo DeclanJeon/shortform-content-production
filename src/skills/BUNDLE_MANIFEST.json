@@ -1,0 +1,259 @@
+{
+  "excluded": {
+    "Higgsfield image and publication skills": "This creator project uses its configured Codex Imagen executor and hands off to youtube_publish_only; it does not generate Higgsfield images or publish.",
+    "community-shorts-stills-pipeline": "Its fixed 60-second webtoon layout and playlist/publishing stages conflict with this project's up-to-180-second format and separate publisher.",
+    "unselected platform and product specialists": "Optional branches are not part of this Korean still-image story pipeline."
+  },
+  "external_files": {
+    "coordination": "ai-delegation-loop/SKILL.md",
+    "image_executor": "configured Codex Imagen script beneath host_skill_root"
+  },
+  "external_required_skills": [
+    "ai-delegation-loop",
+    "codex-imagen"
+  ],
+  "files": [
+    {
+      "path": "contents-production-skills/creative-production/SKILL.md",
+      "sha256": "f81f96ae76a76f45b3ef9181adc7c492e9223339a0d51e017f20b18f67a4c656",
+      "size_bytes": 20319
+    },
+    {
+      "path": "contents-production-skills/topic-demand-selection/SKILL.md",
+      "sha256": "73a54f68538201cbd4cbfaa2fe62ce00049e615ee549ed67289b6cc32490b87e",
+      "size_bytes": 9050
+    },
+    {
+      "path": "contents-production-skills/designing-character-personas/SKILL.md",
+      "sha256": "acf8b90ea0221857ea6f7378120bfd09ccfdbf6c8ac2e687157224c25392564b",
+      "size_bytes": 8655
+    },
+    {
+      "path": "contents-production-skills/designing-video-character-sheets/SKILL.md",
+      "sha256": "bd660a224129fce3a975263be152b151ccf159dbbfb56e5e10c6849c12497bf9",
+      "size_bytes": 13581
+    },
+    {
+      "path": "contents-production-skills/storytelling-with-still-images/SKILL.md",
+      "sha256": "b1fa9f98c08ccf184603a555d34e5ceeb8274e66e9ffb0ea9e62b2e62d3e1ee1",
+      "size_bytes": 7118
+    },
+    {
+      "path": "contents-production-skills/recording-production-history/SKILL.md",
+      "sha256": "bd49133692ed03d0e8567c72779a46000411616846770b6dde8cf7ea0e201ac4",
+      "size_bytes": 9456
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/SKILL.md",
+      "sha256": "3b81d34146fc78e73ff102b4f8273d11551ab9e6fee8167f83b37756eb1ac708",
+      "size_bytes": 23979
+    },
+    {
+      "path": "contents-production-skills/orchestrating-video-preproduction/SKILL.md",
+      "sha256": "5184849f7b95b62a824230093563efbb55fb9d14ac755a02b9703d7ceecfb184",
+      "size_bytes": 8921
+    },
+    {
+      "path": "contents-production-skills/developing-video-synopses/SKILL.md",
+      "sha256": "4922fa2bac7a666df76137b7d7f6cc9969e702865880c18a851d85b233aef6e0",
+      "size_bytes": 5660
+    },
+    {
+      "path": "contents-production-skills/storyboarding-video/SKILL.md",
+      "sha256": "abd23d8dfaedd51560eac3506554a715044f2e0f2ac061ef094fa71df47e4724",
+      "size_bytes": 10777
+    },
+    {
+      "path": "contents-production-skills/creative-production/references/workspace-integration.md",
+      "sha256": "b9ff877567f7a503eaf104f1cd3d4ba0a4199b9e421b4a3458cd4c885d51a14f",
+      "size_bytes": 3576
+    },
+    {
+      "path": "contents-production-skills/creative-production/references/production-routing.md",
+      "sha256": "263a8a43ba84cda3aba2cf444a3e212c893af639d5760f8a5f9ebf50d5fbfb37",
+      "size_bytes": 10692
+    },
+    {
+      "path": "contents-production-skills/creative-production/references/creative-qa.md",
+      "sha256": "ca464fe7581cf75c406d323e6fe9e1ed47d75373ac633d959bce46040bfffb4a",
+      "size_bytes": 6927
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/contract.md",
+      "sha256": "d7be20620a61a12e11e534f1bec1d7f88ed0b44fc8c264cfc6781ae2657c89ad",
+      "size_bytes": 31256
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/preproduction-review.md",
+      "sha256": "48989e5c2ecf1004578691028397629a8326aa463d192f10a5fc9898370bc268",
+      "size_bytes": 15584
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/16-concept-emotion-retention.md",
+      "sha256": "1fb8fea27f6fc9258da077a82df8982e8487e20b84ec34d83021320ef39797f7",
+      "size_bytes": 17380
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/03-screenplay.md",
+      "sha256": "6dd8e0c23aaf9443c3cc30f94fcdff4db2652f4595de3364cdaebd32c768f04b",
+      "size_bytes": 5536
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/29-reference-driven-production.md",
+      "sha256": "269b60df4f4244d0da0792e9fd10bb0e9145621395d3b81451a6e16a99091d44",
+      "size_bytes": 27919
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/26-state-causality-continuity.md",
+      "sha256": "82e9405074801cac1242c351f45d24c273ea792e4b8120b0e6255aa29b7a4dea",
+      "size_bytes": 8803
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/04-performance.md",
+      "sha256": "41c0a8a94ccc4ef0f953ee65cae11cecbe654fd0fbe633a0c5b008a7a858ba4c",
+      "size_bytes": 5208
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/05-visual.md",
+      "sha256": "fd1aedfea5cbd9bdf017ec573aca831b22f248d02803c1a058902e3544cd93ae",
+      "size_bytes": 5265
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/09-edit.md",
+      "sha256": "27cff13fb6b2674a9b645118f1baaf1e25955c2f4b58a23acd6e4f543a0381a8",
+      "size_bytes": 23990
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/12-qa.md",
+      "sha256": "8f614468f24687357c36428b06fb5a7498808bd015d9b1b3a607b40ea1ef859f",
+      "size_bytes": 8477
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/references/storyboard-contract.md",
+      "sha256": "29bfb789c4dab5809bf2499805a21b369ee2833847355aca782876c633111b6f",
+      "size_bytes": 38695
+    },
+    {
+      "path": "contents-production-skills/orchestrating-video-preproduction/references/video-direction.md",
+      "sha256": "bc273881295f2a94330db580f2dd6873d00f2a2900d2e093640482d4da4665a5",
+      "size_bytes": 10117
+    },
+    {
+      "path": "contents-production-skills/orchestrating-video-preproduction/references/stage-execution.md",
+      "sha256": "a9a8b61066c189413808400a0b795f7a2506f63ed1092912168c30f820779899",
+      "size_bytes": 13243
+    },
+    {
+      "path": "contents-production-skills/developing-video-synopses/references/synopsis-craft.md",
+      "sha256": "5f9df5aa7906cecd490d1e845fc111e407805d36323b0894473d6b1f88bf7d63",
+      "size_bytes": 11559
+    },
+    {
+      "path": "contents-production-skills/recording-production-history/scripts/production_history.py",
+      "sha256": "dd12e21db0bf5b0853d215d027a8a6f7a66323b28f016760a76b8afcc13efa8a",
+      "size_bytes": 38373
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/scripts/validate_project.py",
+      "sha256": "046ebf6676c0fd07d209eb009bbcf4bd9cf4703487a8e020dcd2d0249aedbad5",
+      "size_bytes": 22764
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/scripts/asset_gate.py",
+      "sha256": "2e45716fdfca6a717678933545ca2e91feed1bf7e861d532f80506de43c77572",
+      "size_bytes": 34103
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/scripts/validate_storyboard.py",
+      "sha256": "7becf4a8f9ec0aa6b1c5574c9b4999331bf04da00fa4dac68e24ac10a0a9e0ac",
+      "size_bytes": 27134
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/scripts/render_storyboard_sheet.py",
+      "sha256": "e0f2e777dd76155e8030bb4d6b06db2208febd15a9466234dd31171d7d382c41",
+      "size_bytes": 36272
+    },
+    {
+      "path": "contents-production-skills/video-production-assets/scripts/split_storyboard.py",
+      "sha256": "fcd84dcbec8ceee49fa227c0f06f302fbc7c7fbcafdaad98e9d35ec87021f297",
+      "size_bytes": 31146
+    }
+  ],
+  "format": "shortform-content-skills-v3",
+  "included_skills": [
+    "creative-production",
+    "topic-demand-selection",
+    "designing-character-personas",
+    "designing-video-character-sheets",
+    "storytelling-with-still-images",
+    "recording-production-history",
+    "video-production-assets",
+    "orchestrating-video-preproduction",
+    "developing-video-synopses",
+    "storyboarding-video"
+  ],
+  "runtime_scripts": {
+    "storyboard_renderer": [
+      "contents-production-skills/video-production-assets/scripts/render_storyboard_sheet.py"
+    ],
+    "storyboard_splitter": [
+      "contents-production-skills/video-production-assets/scripts/split_storyboard.py"
+    ],
+    "storyboard_validation": [
+      "contents-production-skills/video-production-assets/scripts/validate_project.py",
+      "contents-production-skills/video-production-assets/scripts/asset_gate.py",
+      "contents-production-skills/video-production-assets/scripts/validate_storyboard.py"
+    ]
+  },
+  "source_books_included": false,
+  "stage_limitations": {
+    "storyboard": "Apply the complete production-board contract to the still-image pipeline. Keep physical 3D feasibility and human acceptance separate: 2D spatial N/A needs a reason, unresolved owner inputs remain indexed blockers, and AI image review must never be described as human approval or solved 3D verification."
+  },
+  "stage_skill_files": {
+    "narrative": [
+      "contents-production-skills/creative-production/SKILL.md",
+      "contents-production-skills/orchestrating-video-preproduction/SKILL.md",
+      "contents-production-skills/developing-video-synopses/SKILL.md",
+      "contents-production-skills/designing-character-personas/SKILL.md",
+      "contents-production-skills/creative-production/references/workspace-integration.md",
+      "contents-production-skills/video-production-assets/references/contract.md",
+      "contents-production-skills/orchestrating-video-preproduction/references/video-direction.md",
+      "contents-production-skills/orchestrating-video-preproduction/references/stage-execution.md",
+      "contents-production-skills/developing-video-synopses/references/synopsis-craft.md",
+      "contents-production-skills/video-production-assets/references/16-concept-emotion-retention.md",
+      "contents-production-skills/video-production-assets/references/03-screenplay.md"
+    ],
+    "storyboard": [
+      "contents-production-skills/creative-production/SKILL.md",
+      "contents-production-skills/video-production-assets/SKILL.md",
+      "contents-production-skills/designing-character-personas/SKILL.md",
+      "contents-production-skills/designing-video-character-sheets/SKILL.md",
+      "contents-production-skills/storytelling-with-still-images/SKILL.md",
+      "contents-production-skills/recording-production-history/SKILL.md",
+      "contents-production-skills/storyboarding-video/SKILL.md",
+      "contents-production-skills/creative-production/references/workspace-integration.md",
+      "contents-production-skills/video-production-assets/references/contract.md",
+      "contents-production-skills/creative-production/references/production-routing.md",
+      "contents-production-skills/creative-production/references/creative-qa.md",
+      "contents-production-skills/video-production-assets/references/storyboard-contract.md",
+      "contents-production-skills/video-production-assets/references/preproduction-review.md",
+      "contents-production-skills/video-production-assets/references/26-state-causality-continuity.md",
+      "contents-production-skills/video-production-assets/references/04-performance.md",
+      "contents-production-skills/video-production-assets/references/05-visual.md",
+      "contents-production-skills/video-production-assets/references/09-edit.md",
+      "contents-production-skills/video-production-assets/references/29-reference-driven-production.md",
+      "contents-production-skills/video-production-assets/references/12-qa.md"
+    ],
+    "topic": [
+      "contents-production-skills/creative-production/SKILL.md",
+      "contents-production-skills/topic-demand-selection/SKILL.md",
+      "contents-production-skills/creative-production/references/workspace-integration.md",
+      "contents-production-skills/video-production-assets/references/contract.md",
+      "contents-production-skills/creative-production/references/production-routing.md"
+    ]
+  },
+  "upstream_commit": "dc90ccc2505a60204f9a889c2d2957e444bf38d8",
+  "upstream_manifest_sha256": "df435688cba9c7b45db356ad54cb848315e32cbf64af0d67a73be5bd5b8802dc",
+  "upstream_package_version": "2.30",
+  "upstream_repository": "DeclanJeon/contents-production-skills"
+}

@@ -1,0 +1,15 @@
+{
+  "project": "shortform-content",
+  "n8n_port": 15680,
+  "daily_story_limit": 12,
+  "production_interval_minutes": 120,
+  "allow_sheet_inspiration": false,
+  "source_sheet_id": "",
+  "publish_sheet_id": "",
+  "publish_queue_tab": "발행 대기",
+  "publish_privacy": "공개",
+  "publish_category_id": 22,
+  "archive_folder_id": "",
+  "typecast_voice_id": "",
+  "google_credential_id": ""
+}
